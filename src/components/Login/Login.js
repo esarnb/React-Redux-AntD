@@ -1,5 +1,5 @@
 import React from "react"
-import { Button } from 'antd';
+import { Button } from "@chakra-ui/react"
 import {useDispatch, useSelector} from "react-redux";
 import {isLogged} from "../../store/actions";
 import "./Login.css";

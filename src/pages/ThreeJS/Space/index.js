@@ -6,7 +6,7 @@ import cloudTexture from "./Images/clouds_2.jpg";
 import starTexture from "./Images/galaxy_starfield.png";
 // import moonTexture from "./Images/moon_texture.jpg";
 import sunTexture from "./Images/sun2.jpg";
-import { Progress } from 'antd';
+import { CircularProgress, CircularProgressLabel } from "@chakra-ui/react"
 import "./index.css"
 
 //Animation global update object
@@ -219,7 +219,7 @@ class ThreeScene extends Component {
 
   loading = () => {
     return <div className="loader">
-      <Progress
+      <CircularProgress
         type="circle"
         strokeColor={{
           '0%': '#108ee9',

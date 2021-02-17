@@ -4,7 +4,7 @@ import "./NotFound.css";
 function NotFound() {
   return (
     <Fragment>
-      Nothing to see here c:
+        NotFound
     </Fragment>
   )
 }
